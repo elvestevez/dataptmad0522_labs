@@ -1,5 +1,7 @@
 ![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
 
+## Prueba modificar fichero lab git
+
 # Lab | Resolving Git Conflicts
 
 ## Introduction
