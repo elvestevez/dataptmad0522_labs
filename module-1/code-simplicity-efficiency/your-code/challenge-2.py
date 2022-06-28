@@ -1,3 +1,6 @@
+import time
+
+
 """
 The code below generates a given number of random strings that consists of numbers and 
 lower case English letters. You can also define the range of the variable lengths of
@@ -35,4 +38,10 @@ a = input('Enter minimum string length: ')
 b = input('Enter maximum string length: ')
 n = input('How many random strings to generate? ')
 
+start = time.time()
+
 print(BatchStringGenerator(int(n), int(a), int(b)))
+
+end = time.time()
+
+print(f'time in functions: {end - start}')
