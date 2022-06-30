@@ -1,3 +1,6 @@
+import time
+
+
 """
 You are presented with an integer number larger than 5. Your goal is to identify the longest side
 possible in a right triangle whose sides are not longer than the number you are given.
@@ -27,4 +30,10 @@ def my_function(X):
 
 X = input("What is the maximal length of the triangle side? Enter a number: ")
 
+start = time.time()
+
 print("The longest side possible is " + str(my_function(int(X))))
+
+end = time.time()
+
+print(f'time in functions: {end - start}')

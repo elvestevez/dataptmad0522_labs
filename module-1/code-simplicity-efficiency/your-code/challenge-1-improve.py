@@ -1,4 +1,5 @@
 # function transform str to int (from zero to five)
+# next step: library word2number
 def transform_to_int(text):
     if text == 'zero':
         return 0
@@ -14,6 +15,7 @@ def transform_to_int(text):
         return 5
 
 # function transform int to str (from -5 to 10)
+# next step: library num2words
 def transform_to_str(num):
     if num == -5:
         return 'negative five'
